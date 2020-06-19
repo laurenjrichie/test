@@ -1,6 +1,0 @@
-# Databricks notebook source
-changes from outside ccc
-after tag
-abc
-qadf
-df
