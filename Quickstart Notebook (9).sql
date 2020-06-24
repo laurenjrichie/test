@@ -5,7 +5,7 @@
 -- COMMAND ----------
 
 -- MAGIC %md
--- MAGIC ## Create a quickstart cluster ABC
+-- MAGIC ## Create a quickstart cluster 
 -- MAGIC 
 -- MAGIC 1. In the sidebar, right-click the **Clusters** button and open the link in a new window.
 -- MAGIC 1. On the Clusters page, click **Create Cluster**.
