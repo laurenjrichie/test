@@ -1,7 +1,7 @@
 # Databricks notebook source
 # MAGIC %md
 # MAGIC 
-# MAGIC # **Chart and Graph Types with Python**
+# MAGIC # **Chart and Graph Types with Python ABC**
 # MAGIC This notebook covers the various charts and graphs that are built into Databricks.
 # MAGIC 
 # MAGIC While Python is used to generate the test data displayed in the visualizations in this notebook, all the information about how to configure these charts & graphs applies to all notebooks.
