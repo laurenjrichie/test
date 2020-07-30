@@ -15,7 +15,6 @@
 
 from pyspark.sql import Row
 
-NEWasdfsssssasdfasdfsdfa
 
 array = map(lambda x: Row(key="k_%04d" % x, value = x), range(1, 5001))
 largeDataFrame = sqlContext.createDataFrame(sc.parallelize(array))
@@ -56,6 +55,8 @@ display(sqlContext.sql("select * from largeTable"))
 
 # Click on the Plot Options Button...to see how this pivot table was configured.
 from pyspark.sql import Row
+
+sfdsdf
 
 largePivotSeries = map(lambda x: Row(key="k_%03d" % (x % 200), series_grouping = "group_%d" % (x % 3), value = x), range(1, 5001))
 largePivotDataFrame = sqlContext.createDataFrame(sc.parallelize(largePivotSeries))
@@ -162,6 +163,10 @@ stateRDD = sqlContext.createDataFrame(sc.parallelize([
   Row(state="CA", value=7)
 ]))
 stateRDD.registerTempTable("test_state_table")
+
+sdfg
+
+
 display(sqlContext.sql("Select * from test_state_table"))
 
 # COMMAND ----------
