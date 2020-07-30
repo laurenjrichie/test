@@ -15,6 +15,8 @@
 
 from pyspark.sql import Row
 
+NEW
+
 array = map(lambda x: Row(key="k_%04d" % x, value = x), range(1, 5001))
 largeDataFrame = sqlContext.createDataFrame(sc.parallelize(array))
 largeDataFrame.registerTempTable("largeTable")
