@@ -1,7 +1,7 @@
 # Databricks notebook source
 # MAGIC %md
 # MAGIC 
-# MAGIC # **Chart and Graph Types with Python **
+# MAGIC # **Chart and Graph Types with  **
 # MAGIC This notebook covers the various charts and graphs that are built into Databricks.
 # MAGIC 
 # MAGIC While Python is used to generate the test data displayed in the visualizations in this notebook, all the information about how to configure these charts & graphs applies to all notebooks.
@@ -15,7 +15,7 @@
 
 from pyspark.sql import Row
 
-NEWasdf
+NEWasdfsssss
 
 array = map(lambda x: Row(key="k_%04d" % x, value = x), range(1, 5001))
 largeDataFrame = sqlContext.createDataFrame(sc.parallelize(array))
