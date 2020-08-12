@@ -1,9 +1,9 @@
 // Databricks notebook source
-// %sql select * from test_sales_table
+// %sql select * from test_sales_tabless
 
 // COMMAND ----------
 
-asdf
+ddasdf
 
 // COMMAND ----------
 
