@@ -13,7 +13,7 @@
 
 # COMMAND ----------
 
-from pyspark.sql import Rowa
+from pyspark.sql import Rowaa
 
 
 array = map(lambda x: Row(key="k_%04d" % x, value = x), range(1, 5001))
