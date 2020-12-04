@@ -8,6 +8,10 @@
 
 # COMMAND ----------
 
+
+
+# COMMAND ----------
+
 # MAGIC %md  ### A **Table View** is the most basic way to view data.
 # MAGIC * Only the first 1000 rows will be displayed in the table view.
 
