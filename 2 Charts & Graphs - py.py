@@ -28,9 +28,6 @@ display(sqlContext.sql("select * from largeTable"))
 # COMMAND ----------
 
 # MAGIC %md ### Tables in Databricks Cloud are configured with **Plot Options...**.
-# MAGIC * The **Keys** section is for specifying the control variable which is typically displayed as the X-Axis on many of the graph types.  Most graphs can plot about 1000 values for the keys, but again - it varies for different graphs.
-# MAGIC * The **Values** section is for specifying the observed variable and is typically displayed on the Y-Axis.  This also tends to be an observed numerical value on most graph types.
-# MAGIC * The **Series groupings** section is for specifying ways to break out the data - for a bar graph - each series grouping has a different color for the bars with a legend to denote that value of each series grouping.  Many of the graph types can only handle series groupings that has 10 or less unique values. 
 # MAGIC 
 # MAGIC **Some graph types also allow specifying even more options - and those will be discussed as applicable.**
 
