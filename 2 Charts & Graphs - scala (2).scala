@@ -125,6 +125,8 @@ val scatterPlotRDD = sc.parallelize(
   Nil).toDF()
 display(scatterPlotRDD)
 
+
+
 // COMMAND ----------
 
 // MAGIC %md #### LOESS Fit Curves for Scatter Plots
