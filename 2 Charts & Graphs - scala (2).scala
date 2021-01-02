@@ -101,6 +101,7 @@ val worldRDD = sc.parallelize(
   Nil).toDF()
 display(worldRDD)
 
+
 // COMMAND ----------
 
 // MAGIC %md ### A **Scatter Plot** allows you to see if there is a correlation between two variables.
