@@ -1,0 +1,16 @@
+{
+  "fields": [
+    {
+      "name": "Id",
+      "nullable": true,
+      "metadata": {},
+      "type": "integer"
+    },
+    {
+      "name": "AcceptedAnswerId",
+      "nullable": true,
+      "metadata": {},
+      "type": "integer"
+    }
+  ]
+}
