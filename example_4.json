@@ -10,7 +10,8 @@
       "name": "AcceptedAnswerId",
       "nullable": true,
       "metadata": {},
-      "type": "integer"
+      "type": "integer",
+      "something": "abc"
     }
   ]
 }
