@@ -3,7 +3,6 @@
 
 
 
-
 ------
 -- red database is the original paths we were using till today
 CREATE DATABASE IF NOT EXISTS datavinci_dog1_plumeschema_hourly_snapshot;
